@@ -2,7 +2,10 @@
 
 @section('content')
 
-"hi"
+
+    @foreach ($posts as $post)
+        @include('posts.post')
+    @endforeach
 
 
 @endsection
